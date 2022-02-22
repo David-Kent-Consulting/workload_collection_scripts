@@ -57,13 +57,16 @@ within your $ORACLE_HOME in order for this script to run.
    for you. See http://dba-oracle.com/oracle10g_tuning/t_generating_awr_report.htm 
 7. You will see a long list of AWR SNAPs. Select the lowest AWR SNAP number in the list.
 8. Next enter the last AWR SNAP number.
-9. Now watch it run. This will take sometime to complete. Each AWR SNAP set will
+9. The script will end and you will be returned to the SQL prompt. Also, you will be
+    told the name of the output script that should be runned next, which will be
+    my_awr_report.sql. Run the script lioke '@my_awr_report.sql'
+10. Now watch it run. This will take sometime to complete. Each AWR SNAP set will
    consume about 1MB of disk storage. You'll need about 2GB of storage for 30 days
    of SNAP reports, which includes storage needed for the next task.
-10. The utility will exit to the SQL prompt. Quite sqlplus.
-11. We recommend that you tar up the HTML files, and then compress with gzip. Then
+11. The utility will exit to the SQL prompt. Quite sqlplus.
+12. We recommend that you tar up the HTML files, and then compress with gzip. Then
     remove the HTML files from the directory.
-12. Finally, copy your compressed file to your local system. Be sure to remove the
+13. Finally, copy your compressed file to your local system. Be sure to remove the
     source file from the DB host since it serves no purpose to leave it there.
-13. Finally, upload the compressed tar file to the project folder (if you are working
+14. Finally, upload the compressed tar file to the project folder (if you are working
     with one of our cloud experts) or extract the files and begin your own analysis.
