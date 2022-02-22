@@ -59,7 +59,7 @@ within your $ORACLE_HOME in order for this script to run.
 8. Next enter the last AWR SNAP number.
 9. The script will end and you will be returned to the SQL prompt. Also, you will be
     told the name of the output script that should be runned next, which will be
-    my_awr_report.sql. Run the script lioke '@my_awr_report.sql'
+    my_awr_report.sql. Run the script as in '@my_awr_report.sql'
 10. Now watch it run. This will take sometime to complete. Each AWR SNAP set will
    consume about 1MB of disk storage. You'll need about 2GB of storage for 30 days
    of SNAP reports, which includes storage needed for the next task.
