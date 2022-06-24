@@ -74,7 +74,7 @@ within your $ORACLE_HOME in order for this script to run.
 OTHER SQL SCRIPTS INCLUDED IN THIS REPOSITORY
 =============================================
 
-##check_tablespace_utilization.sql:
+**check_tablespace_utilization.sql:**
    Reports tablespace utilization of all tables within the PDB
 
 check_tmp_table_space_utilization.sql:
