@@ -29,6 +29,12 @@ FILES CURRENTLY IN THIS REPOSITORY
    AIX, but has been modified for Fedora Linux version 7.x or later. Removed from
    the original script is data collection from the vnet interface since this is
    not considered useful in today's modern cloud infrastructure.
+3. sql_loadtest_scripts - These scripts are used to load test a DB system. They
+   should not be used on a production system without authorization since.
+   Running the load test scripts on a production system WILL BE disruptive. We
+   recommend the scripts be run by a qualified DBA when standing up a new DB
+   system or if analyzing an existing DB system during an approved outage window.
+   These scripts are provided as is. Run them at your own risk.
 
 INSTRUCTIONS FOR USE OF AWR COLLECTION SCRIPT
 =============================================
